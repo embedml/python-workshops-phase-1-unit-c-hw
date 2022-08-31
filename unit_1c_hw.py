@@ -5,18 +5,20 @@ Only edit where it says it is okay to edit. Altering the rest
 of the code may result in false failures. If you have trouble please
 reach out to your instructor. :)
 '''
+import random # We will talk about imports later :)
 
 ########## Variables ##########
 
 def assign_test_1():
     ''' Assign a variable x the value 5 '''
+    x = None
     # Put your code below#
-    x = 5
+
     ######################
     return x # This is what will be set to the test for grading
 
 def assign_test_2():
-    x = ''
+    x = None
     # Put your code below#
 
     ######################
@@ -26,7 +28,7 @@ def assign_test_2():
 
 def list_test_1():
     '''Assign X as a list with the values 3, 4, and 5'''
-    x = 0
+    x = None
     # Put your code below #
 
     ######################
@@ -144,7 +146,7 @@ def if_test(x):
 
 ########## for loops ###########
 
-def for_loop_test(x):
+def for_loop_test():
     '''
     A list with 400 elements will be given, for each 1 replaces the value with a 2
 
@@ -165,6 +167,17 @@ def for_loop_test(x):
 
 
 ########## while loops #########
+
+def while_loop_test():
+    '''Create a while loop that will only break if the expression for the while loop evaluates to the number 5'''
+    x = None
+    # Have the while loop have x == 5
+    # Then use the code below to generate a new number for x
+
+    x = random.randint(0, 10)# This should live in the while loop, so you may need to indent it once you have the while loop implemented
+    # Note on random.randint(). This will generate an integer between the two values passed in each time it is ran.
+
+    return x
 
 
 

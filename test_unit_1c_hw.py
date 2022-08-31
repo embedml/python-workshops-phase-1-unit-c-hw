@@ -1,5 +1,6 @@
-from unit_1c_hw import *
 
+import random
+from unit_1c_hw import *
 
 def test_assign_1():
     assert assign_test_1() == 5, "X must be assigned to the integer 5"
@@ -42,9 +43,31 @@ def test_dict_test3():
 
 def test_list_dict_test():
     colors = list_dict_test()
+    assert "warm_colors" in colors
+    assert "cool_colors" in colors
     warm_colors = colors["warm_colors"]
     cool_colors = colors["cool_colors"]
     assert len(colors) == 2
     assert len(warm_colors) == 3
     assert len(cool_colors) == 3
+    assert "yellow" in warm_colors
+    assert "orange" in warm_colors
+    assert "red" in warm_colors
+    assert "green" in cool_colors
+    assert "blue" in cool_colors
+    assert "purple" in cool_colors
 
+def test_if_test():
+    assert if_test(5) == "X is 5!"
+    assert if_test(6) == "X is 6!"
+    assert if_test(random.randint(7,100)) == "X is not 5 or 6!"
+    assert if_test(random.randint(-100, 3)) == "X is not 5 or 6!"
+
+def test_for_loop_test():
+    l = for_loop_test()
+    for num in l[1::4]:
+        assert num == 2
+
+def test_while_loop_test():
+    break_num = while_loop_test()
+    assert break_num == 5
