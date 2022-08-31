@@ -35,39 +35,39 @@ def test_dict_test_1():
 
 def test_dict_test_2():
     noise = dict_test_2()
-    assert noise == "meow" # Note to instructor check this test manually as well, make sure student did not just pass in the string "meow"
+    assert noise == "meow", f"Noise was not the sounds of a cat: '{noise}'" # Note to instructor check this test manually as well, make sure student did not just pass in the string "meow"
 
 def test_dict_test3():
     milk_tax = dict_test_3()
-    assert milk_tax == 0.25 # Note to instructor, check this test manually as well, make sure student did not pass in the value 0.25
+    assert milk_tax == 0.25, f"Value was not the milk tax: '{milk_tax}" # Note to instructor, check this test manually as well, make sure student did not pass in the value 0.25
 
 def test_list_dict_test():
     colors = list_dict_test()
-    assert "warm_colors" in colors
-    assert "cool_colors" in colors
+    assert "warm_colors" in colors, "warm_colors was not in the color dict "
+    assert "cool_colors" in colors, "cool_colors was not in the color dict"
     warm_colors = colors["warm_colors"]
     cool_colors = colors["cool_colors"]
-    assert len(colors) == 2
-    assert len(warm_colors) == 3
-    assert len(cool_colors) == 3
-    assert "yellow" in warm_colors
-    assert "orange" in warm_colors
-    assert "red" in warm_colors
-    assert "green" in cool_colors
-    assert "blue" in cool_colors
-    assert "purple" in cool_colors
+    assert len(colors) == 2, "You may have more than warm_colors and cool_colors as dict keys"
+    assert len(warm_colors) == 3, "You must have 3 colors in the warm_colors list"
+    assert len(cool_colors) == 3, "You must have 3 colors in teh cool_colors list"
+    assert "yellow" in warm_colors, "yellow was not in warm colors"
+    assert "orange" in warm_colors, "orange was not in warm colors"
+    assert "red" in warm_colors, "red was not in warm colors"
+    assert "green" in cool_colors, "green was not in cool colors"
+    assert "blue" in cool_colors, "blue was not in cool colors"
+    assert "purple" in cool_colors, "purple was not in cool colors"
 
 def test_if_test():
-    assert if_test(5) == "X is 5!"
-    assert if_test(6) == "X is 6!"
+    assert if_test(5) == "X is 5!", "When X is 5 must print 'X is 5!'"
+    assert if_test(6) == "X is 6!", "When X is 6 must print 'X is 6!'"
     assert if_test(random.randint(7,100)) == "X is not 5 or 6!"
     assert if_test(random.randint(-100, 3)) == "X is not 5 or 6!"
 
 def test_for_loop_test():
     l = for_loop_test()
     for num in l[1::4]:
-        assert num == 2
+        assert num == 2, "1 must be replaced with 2, did not find a 2 where a 1 was before"
 
 def test_while_loop_test():
     break_num = while_loop_test()
-    assert break_num == 5
+    assert break_num == 5, f"Can only break on the num 5, you broke on the num '{break_num}'"

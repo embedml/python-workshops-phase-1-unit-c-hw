@@ -10,7 +10,7 @@ import random # We will talk about imports later :)
 ########## Variables ##########
 
 def assign_test_1():
-    ''' Assign a variable x the value 5 '''
+    ''' Assign a variable x the integer 5 '''
     x = None
     # Put your code below#
 
@@ -18,6 +18,7 @@ def assign_test_1():
     return x # This is what will be set to the test for grading
 
 def assign_test_2():
+    '''Assign the variable x the string "Hello NC State"'''
     x = None
     # Put your code below#
 
@@ -113,6 +114,8 @@ def list_dict_test():
     Assign a dict with keys "warm_colors" and "cool_colors". 
     Give the warm_colors key a value of a list with the values yellow, orange, red.
     Give the cool_colors key a value of a list with the values, green, blue, purple.
+
+    Note it is case sensitive! 
     '''
     colors = {}
     
@@ -178,7 +181,6 @@ def while_loop_test():
     # Note on random.randint(). This will generate an integer between the two values passed in each time it is ran.
 
     return x
-
 
 
 if __name__ == "__main__":
