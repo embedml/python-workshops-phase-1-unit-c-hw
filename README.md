@@ -26,7 +26,7 @@ We will be using Github Classroom to make grading easier. This will let you auto
 
 # What will be graded?
 
-In this unit, file ____ will be graded. That is the file you will want to modify. You can see how it will be graded in the ____ file. The goal is to pass all tests in the ____ file. 
+In this unit, file `unit_1c_hw.py` will be graded. That is the file you will want to modify. You can see how it will be graded in the `test_unit_1c_hw.py` file. The goal is to pass all tests in the `test_unit_1c_hw.py` file. 
 <br><br>
 Lets start by passing one test, seeing if we passed it locally, then uploading it to Github Classroom to get your grade. 
 <br><br>
@@ -41,7 +41,7 @@ One way you got this starter template was through using Github. Github is a plac
 
 We will being using Github to upload your code to your personal repo.
 
-Below I will explain how to upload your code and it graded. There are multiple of the same explainations below.
+Below I will explain how to upload your code and it graded. There are multiple of the same explanations below.
 
 There are 3 basic steps to uploading your code, and they are are placed in terminal. 
 
