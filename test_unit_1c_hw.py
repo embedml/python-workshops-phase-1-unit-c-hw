@@ -16,11 +16,18 @@ def test_list_test_1():
     assert l[2] == 5, "Third Index must have value 5"
 
 def test_list_test_2():
+    l = list_test_2()
+    assert len(l) == 3, "List must only have 3 elements"
+    assert l[0] == 4, "First index must have value 4"
+    assert l[1] == 7, "Second index must have value 7"
+    assert l[2] == 9, "Third Index must have value 9"
+
+def test_list_test_3():
     l = list_test_3()
     assert len(l) == 3, "List must only have 3 elements"
-    assert l[0] == 4, "First index must have value 3"
-    assert l[1] == 3, "Second index must have value 4"
-    assert l[2] == 7, "Third Index must have value 5"
+    assert l[0] == 4, "First index must have value 4"
+    assert l[1] == 3, "Second index must have value 3"
+    assert l[2] == 7, "Third Index must have value 7"
 
 def test_list_test_4():
     l = list_test_4()
