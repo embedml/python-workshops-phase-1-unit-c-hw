@@ -3,7 +3,7 @@ import random
 from unit_1c_hw import *
 
 def test_assign_1():
-    assert assign_test_1() == 5, "X must be assigned to the integer 5"
+    assert assign_1() == 5, "X must be assigned to the integer 5"
 
 def test_assign_2():
     assert assign_test_2() == "Hello NC State", "X must be assigned the string 'Hello NC State'"
