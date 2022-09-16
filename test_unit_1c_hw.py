@@ -6,7 +6,7 @@ def test_assign_1():
     assert assign_test_1() == 5, "X must be assigned to the integer 5"
 
 def test_assign_2():
-    assert assign_test_2 == "Hello NC State", "X must be assigned the string 'Hello NC State'"
+    assert assign_test_2() == "Hello NC State", "X must be assigned the string 'Hello NC State'"
 
 def test_list_test_1():
     l = list_test_1()

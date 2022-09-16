@@ -9,7 +9,7 @@ import random # We will talk about imports later :)
 
 ########## Variables ##########
 
-def assign_test_1():
+def assign_1():
     ''' Assign a variable x the integer 5 '''
     x = None
     # Put your code below#
