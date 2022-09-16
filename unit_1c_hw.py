@@ -112,7 +112,7 @@ def dict_3():
 
 def list_dict():
     '''
-    Give the dictionary colors the keys "warm_colors" and "cool_colors". 
+    Give the dictionary `colors` the keys "warm_colors" and "cool_colors". 
     Give the warm_colors key a value of a list with the values yellow, orange, red.
     Give the cool_colors key a value of a list with the values, green, blue, purple.
 
