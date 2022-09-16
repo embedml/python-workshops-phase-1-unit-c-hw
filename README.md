@@ -14,12 +14,12 @@ Now run `pytest` in terminal.
 
 ^ If that does not work try `python -m pytest`
 
-You will see every test is failing. Your goal is to pass every test with the instructions below. Happy coding!
+When you first start you will see every test is failing. Your goal is to pass every test with the instructions below. Happy coding!
 
 
 # Explaining What is going on
 
-Hopefully you have this open in VS Code. If not you should have gotten a link to clone this repo onto yoru computer. You can then open the folder (the repo) that was cloned in VS Code. Use the "Mark Down All in On" Extension to open this readme.md file to see it easier. The button should be in the top rigth area of the screan. 
+Hopefully you have this open in VS Code. If not you should have gotten a link to clone this repo onto your computer. You can then open the folder (the repo) that was cloned in VS Code. Use the "Mark Down All in On" Extension to open this readme.md file to see it easier. The button should be in the top right area of the screan. 
 
 We will be using Github Classroom to make grading easier. This will let you automatically see your grade every time you upload (or push) your work. I will walk you through how to do that. 
 
