@@ -59,17 +59,31 @@ Make a change to your homework file.
 
 1. Click on the "Source Control" icon on the left
 
+![click on the source control icon](https://user-images.githubusercontent.com/65638400/192014627-2a370104-63b9-48d7-860b-d94b14c7997b.png)
+
 2. Under the "Changes" section, press the + button next to the hw file. 
+
+![click stage changes](https://user-images.githubusercontent.com/65638400/192014789-9ad2947c-dabf-4f7e-9fd3-35c5badfcc26.png)
+
 
 3. Then type a short message about your homework in the "Message" box under the "Source Control" section. 
 
+![add commit message](https://user-images.githubusercontent.com/65638400/192014814-ce341536-c8d0-41d4-a1d3-dc6a98318896.png)
+
 4. Hit the commit button! 
+
+![commit the file and message](https://user-images.githubusercontent.com/65638400/192014867-72fb4225-39c5-46f1-bdfc-586b7ba0d8d1.png)
 
 5. Now open the Commits Section and the most recent commit. You should see the file you committed there. 
 
-6. Next click on the "..." in the Source Control *section* (not window)
-   
+![commited and moved to commit section](https://user-images.githubusercontent.com/65638400/192014921-0170e62b-1341-4c4b-8fe1-900803b6ad2a.png)
+
+6. Next click on the "..." in the Source Control *section* (not window). Go to step 7
+
 7. Click Push. 
+
+![image](https://user-images.githubusercontent.com/65638400/192015256-ab089720-31c5-4d76-9ab4-7885cdad9a32.png)
+
 
 You have submitted your homework! You will want to do these steps every time you make a change to your homework.
 
