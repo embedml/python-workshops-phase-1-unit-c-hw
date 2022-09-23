@@ -153,3 +153,10 @@ You want to grade file_we_want_to_grade.py
 `git push`
 
 file_we_want_to_grade.py is then graded
+
+# Looking at your Grade
+
+The https:// link you clone, put that in your brower.
+
+Click on the red x or green check mark to see what tests you are failing (or if you passed all the tests!)
+
