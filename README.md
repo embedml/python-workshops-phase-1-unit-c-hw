@@ -49,7 +49,39 @@ There are 3 basic steps to uploading your code, and they are are placed in termi
 
 2.) Committing from stage
 
-3.) Pushing commit to online repo
+3.) Pushing commit to online repo 
+
+# Using VS Code UI to submit
+
+Make a change to your homework file.
+
+*Make sure all your files are saved*
+
+1. Click on the "Source Control" icon on the left
+
+2. Under the "Changes" section, press the + button next to the hw file. 
+
+3. Then type a short message about your homework in the "Message" box under the "Source Control" section. 
+
+4. Hit the commit button! 
+
+5. Now open the Commits Section and the most recent commit. You should see the file you committed there. 
+
+6. Next click on the "..." in the Source Control *section* (not window)
+   
+7. Click Push. 
+
+You have submitted your homework! You will want to do these steps every time you make a change to your homework.
+
+
+
+# Using Terminal to submit
+
+Make a change to your homework file.
+
+*Make sure all your files are saved*
+
+In terminal type:
 
 `git add -A`
 
@@ -60,7 +92,7 @@ You can check what is staged by using `git status` in terminal.
 
 `git commit -m "<some message>" `
 
-This will commit any code you have staged. If you forget the -m and message, press `:q!` and try again.  
+This will commit any code you have staged. If you forget the -m and message, press `:q!` and try again. If that does not work press "esc" multiple times then type in `:q!` again.
 
 Then finally 
 `git push` 
