@@ -2,8 +2,11 @@
 In this file you will fill in each function.
 
 Only edit where it says it is okay to edit. Altering the rest 
-of the code may result in false failures. If you have trouble please
-reach out to your instructor. :)
+of the code may result in false failures. 
+
+If you have trouble please reach out to your instructor. :)
+
+Note: This is a multiline comment!
 '''
 import random # We will talk about imports later :)
 
