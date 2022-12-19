@@ -9,52 +9,75 @@ If you have trouble please reach out to your instructor. :)
 Note: This is a multiline comment!
 '''
 import random # We will talk about imports later :)
-
 ########## Variables ##########
 
 def assign_1():
-    ''' Assign a variable x the integer 5 '''
-    x = None
+    ''' Re-assign a variable num the integer 5 '''
+    num = None
     # Put your code below#
     
+    # Hint make num = 5
     ######################
-    return x # This is what will be set to the test for grading
+    return num # This is what will be set to the test for grading
 
 def assign_2():
-    '''Assign the variable x the string "Hello NC State"'''
-    x = None
+    '''Re-assign the variable welcome the string "Hello NC State"'''
+    welcome = None
     # Put your code below#
     
     ######################
-    return x
+    return welcome
 
 ############ Lists ############
 
 def list_1():
-    '''Assign X as a list with the values 3, 4, and 5'''
-    x = None
+    '''Assign num_list as a list with the values 3, 4, and 5'''
+    num_list = None
     # Put your code below #
     
     ######################
-    return x
+    return num_list
 
 def list_2():
-    '''Given the list x, use indexing to change the value 3 to the value 7'''
-    x = [4, 3, 9]
+    '''Assign list_answer an empty list'''
+    list_answer = None
     # Put your code below #
     
     ######################
-    return x
+    return list_answer
 
-def list_3():
-    '''Given the list x, use indexing to change the value 9 to the value 7'''
-    x = [4, 3, 9]
+def list_slice_1():
+    '''Given the list list_given, use indexing to change the value 3 to the value 7'''
+    list_given = [4, 3, 9]
     # Put your code below #
     
     ######################
-    return x
+    return list_given
 
-def list_4():
+def list_slice_2():
+    '''Given the list list_given, use indexing to change the value 9 to the value 7'''
+    list_given = [4, 3, 9]
+    # Put your code below #
+    
+    ######################
+    return list_given
+
+def list_slice_3():
+    '''Given the list list_given, use slicing to get the values between index 3 and 8
+    then assign it to slice_answer
+    
+    Don't forget that Python does not include the last digit of the right most number.
+
+    For example, if we have a list b = [0, 1, 2, 3], if we wanted the 0-2 index we must specify b[0:3] (Note, see how the right number is one more greater than the end index we want)
+    '''
+    list_given = [14, 15, 15, 11, 10, 45, 40, 90, 100]
+    slice_answer = None # slice using the x[start_index:end_index+1]
+    # Put your code below #
+
+    ######################
+    return slice_answer
+
+def list_slice_4():
     '''Given the list x, and list y, assign the indices 2 through 11 of the list x the values of list y! Hint: Use the row operator for lists!
     Don't forget that Python does not include the last digit of the right most number.
 
@@ -66,6 +89,75 @@ def list_4():
     
     ######################
     return x
+
+def list_slice_5(list_given): # List is being provided through this function, we will talk about functions later
+    '''
+    A list called list_given is being provided. 
+
+    Slice the list called list_given, slice between index 0 and 5, then assign that slice 
+    to the variable slice_answer
+    '''
+    
+    # Put your code below #
+    slice_answer = list_given # Need to slice this list
+    ######################
+    return slice_answer
+
+
+
+def multi_dim_lists_1():
+    '''Given the multi dimensional list dim, assign dim_answer the 3rd list in dim'''
+    dim = [
+        [0, 1, 2, 3], # first list
+        [8, 9 , 10, 11], # second list
+        [9, 9] # 3rd list
+    ]
+    dim_answer = None
+    # Put your code below #
+    
+    ######################
+    
+    return dim_answer
+
+
+def multi_dim_lists_2():
+    '''Given the multi dimensional list dim, assign dim_answer the 2nd index of the 2nd list from dim'''
+    dim = [
+        [0, 1, 2, 3], # first list
+        [8, 9 , 10, 11], # second list
+        [9, 9] # 3rd list
+    ]
+    dim_answer = None
+    # Put your code below #
+    
+    ######################
+    return dim_answer
+
+def multi_dim_lists_3(dim):
+    '''Given the multi dimensional list dim, assign dim_answer the 2nd index of the 2nd list from dim
+    
+    Note this should be the same solution as the previous one. (Except I randomized the value so you cannot hardcode it)
+    '''
+
+    dim_answer = None
+    # Put your code below #
+
+    ######################
+    return dim_answer
+
+def multi_dim_lists_4():
+    '''Create a multi dimensional list called dim. Have the list store a list 
+    that ranges from 0-4, then 5-8, then 9-12
+
+    Hint: See the structure from above problem
+    '''
+    dim = None
+    # Put your code below #
+
+    ######################
+    return dim
+
+
 
 ######### Dictionaries #########
 
@@ -195,5 +287,4 @@ def while_loop():
 
 if __name__ == "__main__":
     '''Run your functions below to see what they are doing by calling print(<function name>())'''
-    list_test_4()
     pass
