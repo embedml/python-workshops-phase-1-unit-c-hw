@@ -145,6 +145,25 @@ def test_dict_3():
     milk_tax = dict_3()
     assert milk_tax == 0.25, f"Value was not the milk tax: '{milk_tax}" # Note to instructor, check this test manually as well, make sure student did not pass in the value 0.25
 
+def test_dict_4():
+    value = random.randint(1, 100)
+    inventory = {
+        "butter" : {
+            "value" : 2.50,
+            "tax" : .10,
+        },
+        "milk" : {
+            "value" : 3.00,
+            "tax" : 0.25
+        },
+        "cheese" : {
+            "value" : value,
+            "tax" : .70
+        }
+    }
+    assert dict_4(inventory) == value, "Did not grab value of cheese"
+
+
 def test_list_dict():
     colors = list_dict()
     assert "warm_colors" in colors, "warm_colors was not in the color dict "
@@ -160,19 +179,4 @@ def test_list_dict():
     assert "green" in cool_colors, "green was not in cool colors"
     assert "blue" in cool_colors, "blue was not in cool colors"
     assert "purple" in cool_colors, "purple was not in cool colors"
-
-def test_if_practice():
-    assert if_practice(5) == "X is 5!", "When X is 5 must print 'X is 5!'"
-    assert if_practice(6) == "X is 6!", "When X is 6 must print 'X is 6!'"
-    assert if_practice(random.randint(7,100)) == "X is not 5 or 6!"
-    assert if_practice(random.randint(-100, 3)) == "X is not 5 or 6!"
-
-def test_for_loop():
-    l = for_loop()
-    for num in l[1::4]:
-        assert num == 2, "1 must be replaced with 2, did not find a 2 where a 1 was before"
-
-def test_while_loop():
-    break_num = while_loop()
-    assert break_num == 5, f"Can only break on the num 5, you broke on the num '{break_num}'"
 
