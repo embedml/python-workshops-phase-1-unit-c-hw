@@ -184,7 +184,11 @@ def dict_2():
     return x
 
 def dict_3():
-    '''Given dict inventory, assign x the amount of tax for milk '''
+    '''Given dict inventory, assign milk_tax the amount of tax for milk
+
+    Since milk tax can change, do not hardcode the value, it must be
+    accessed through the [] operator
+     '''
     inventory = {
         "butter" : {
             "value" : 2.50,
@@ -199,11 +203,20 @@ def dict_3():
             "tax" : .70
         }
     }
-    x = ''
+    milk_tax = ''
     # Put your code below#
     
     ######################
-    return x 
+    return milk_tax 
+
+def dict_4(inventory):
+    '''Given an inventory dictionary like the one above get the cheese value
+    Assign the value to the variable cheese_value
+    '''
+    # Alter the code below #
+    cheese_value = inventory # Use inventory to get the value of cheese
+    ########################
+    return cheese_value
 
 def list_dict():
     '''
@@ -221,68 +234,6 @@ def list_dict():
 
     return colors 
 
-######## if, elif, else ########
-
-def if_practice(x):
-    '''
-    x is going to be a random number, use if, elif and else to return a value to the tester. 
-    
-    If, x is 5, it should return a string "X is 5!"
-    Else if x is 6, it should return a string "X is 6!"
-    Else if x is not 6 or 5, it should return the string "X is not 5 or 6!"
-    '''
-    # Note: You will have to indent the return statements onces you create your if, elif and else statements
-
-    # Put/alter your code below#
-    
-    return "X is 5!"
-    
-    return "X is 6!"
-    
-    return "X is not 5 or 6!"
-    ######################
-
-
-########## for loops ###########
-
-def for_loop():
-    '''
-    A list with 400 elements will be given.
-    For each entry with a value of 1, replace it with a value of 2
-
-    Hint: Iterate through all elements in the list, then check if the value is a 1, if it is a one use that index of the list
-    to write the value as a 2. 
-
-    Hint Hint: Use the variable index to keep track of the index you are on  
-
-    BONUS POINTS (Optional): Use the enumerate function on the list to get index and value https://realpython.com/python-enumerate/
-
-    '''
-    x = [0, 1, 0, 3] * 400 # List with pattern [0, 1, 0, 3, 0, 1, 0, 3, ...  3]
-    index = 0
-    # Put/alter your code below#
-    
-    ######################
-    return x
-
-
-########## while loops #########
-
-def while_loop():
-    '''Create a while loop that will only break if the expression for the while loop evaluates to the number 5'''
-    x = None
-    '''
-    The loop's condition should have the loop stop when the value of x is equal to 5.
-    Then, inside the while loop use the code below to generate a new number for x on every single iteration of the loop
-        x = random.randint(0, 10) # This should live in the while loop, so you may need to indent it once you have the while loop implemented
-    (Note on random.randint(). This will generate an integer between the two values passed in each time it is run.)
-    '''
-    # Put/alter your code below#
-    
-    x = random.randint(0, 10) # This should live in the while loop, so you may need to indent it once you have the while loop implemented
-    
-    ######################
-    return x
 
 
 if __name__ == "__main__":
