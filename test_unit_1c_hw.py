@@ -67,6 +67,7 @@ def test_list_slice_5():
         random.randint(0, 99),
     ]
     l = list_slice_5(given)
+    assert len(l) == 6
     assert l[0] == given[0] # Note: Individually checked so the answer is not revealed
     assert l[1] == given[1]
     assert l[2] == given[2]
@@ -163,6 +164,9 @@ def test_dict_4():
     }
     assert dict_4(inventory) == value, "Did not grab value of cheese"
 
+def test_dict_5():
+    test_dict = dict_5()
+    assert len(test_dict) == 3
 
 def test_list_dict():
     colors = list_dict()

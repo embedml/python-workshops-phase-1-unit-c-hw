@@ -218,6 +218,13 @@ def dict_4(inventory):
     ########################
     return cheese_value
 
+def dict_5():
+    '''
+    Make a dictionary that has 3 keys and 3 values and assign it to the variable my_dict
+    '''
+    my_dict = None
+    return my_dict
+
 def list_dict():
     '''
     Give the dictionary `colors` the keys "warm_colors" and "cool_colors". 
