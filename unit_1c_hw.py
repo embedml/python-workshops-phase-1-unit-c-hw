@@ -121,7 +121,7 @@ def multi_dim_lists_1():
 
 
 def multi_dim_lists_2():
-    '''Given the multi dimensional list dim, assign dim_answer the 2nd index of the 2nd list from dim'''
+    '''Given the multi dimensional list dim, assign dim_answer to index 2 of the 2nd list from dim'''
     dim = [
         [0, 1, 2, 3], # first list
         [8, 9 , 10, 11], # second list
@@ -134,7 +134,7 @@ def multi_dim_lists_2():
     return dim_answer
 
 def multi_dim_lists_3(dim):
-    '''Given the multi dimensional list dim, assign dim_answer the 2nd index of the 2nd list from dim
+    '''Given the multi dimensional list dim, assign dim_answer to index 2 of the 2nd list from dim
     
     Note this should be the same solution as the previous one. (Except I randomized the value so you cannot hardcode it)
     '''
