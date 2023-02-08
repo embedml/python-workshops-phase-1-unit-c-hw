@@ -63,7 +63,7 @@ def list_slice_2():
     return list_given
 
 def list_slice_3():
-    '''Given the list list_given, use slicing to get the values between index 3 and 8
+    '''Given the list list_given, use slicing to get the values from index 0 to index 8 (inclusive)
     then assign it to slice_answer
     
     Don't forget that Python does not include the last digit of the right most number.
@@ -78,7 +78,7 @@ def list_slice_3():
     return slice_answer
 
 def list_slice_4():
-    '''Given the list x, and list y, assign the indices 2 through 11 of the list x the values of list y! Hint: Use the row operator for lists!
+    '''Given the list x, and list y, assign the indices 2 through 11 (inclusive) of the list x the values of list y! Hint: Use the row operator for lists!
     Don't forget that Python does not include the last digit of the right most number.
 
     For example, if we have a list b = [0, 1, 2, 3], if we wanted the 0-2 index we must specify b[0:3] (Note, see how the right number is one more greater than the end index we want)
@@ -94,7 +94,7 @@ def list_slice_5(list_given): # List is being provided through this function, we
     '''
     A list called list_given is being provided. 
 
-    Slice the list called list_given, slice between index 0 and 5, then assign that slice 
+    Slice the list called list_given, where we get the first 6 elements, then assign that slice 
     to the variable slice_answer
     '''
     

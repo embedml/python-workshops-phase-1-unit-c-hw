@@ -51,28 +51,12 @@ def test_list_slice_4():
     assert l == [0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 0, 0, 0, 0, 0, 0, 0], f"List was not sliced correctly, your list: {l}"
 
 def test_list_slice_5():
-    given = [
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-        random.randint(0, 99),
-    ]
+    given = random.sample(range(0, 99), 15)
     l = list_slice_5(given)
-    assert l[0] == given[0] # Note: Individually checked so the answer is not revealed
-    assert l[1] == given[1]
-    assert l[2] == given[2]
-    assert l[3] == given[3]
-    assert l[4] == given[4]
-    assert l[5] == given[5]
+    assert len(l) == 6, "Slice was not corrects"
+    for index, value in enumerate(l):
+        assert value == given[index]
+
 
 def test_multi_dim_lists_1():
     l = multi_dim_lists_1()
