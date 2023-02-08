@@ -63,7 +63,7 @@ def list_slice_2():
     return list_given
 
 def list_slice_3():
-    '''Given the list list_given, use slicing to get the values from index 0 to index 8 (inclusive)
+    '''Given the list list_given, use slicing to get the values from index 3 to index 8 (inclusive)
     then assign it to slice_answer
     
     Don't forget that Python does not include the last digit of the right most number.
